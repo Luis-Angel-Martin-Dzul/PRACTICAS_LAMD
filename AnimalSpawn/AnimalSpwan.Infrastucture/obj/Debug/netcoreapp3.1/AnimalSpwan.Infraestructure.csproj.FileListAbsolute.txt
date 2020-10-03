@@ -1,0 +1,30 @@
+C:\Users\Fernando\Desktop\UTM\Cuatrimestre 4\Aplicacion Web Orientada a Servidores\Parcial 1\AnimalSpawn\AnimalSpwan.Infrastucture\bin\Debug\netcoreapp3.1\AnimalSpwan.Infraestructure.deps.json
+C:\Users\Fernando\Desktop\UTM\Cuatrimestre 4\Aplicacion Web Orientada a Servidores\Parcial 1\AnimalSpawn\AnimalSpwan.Infrastucture\bin\Debug\netcoreapp3.1\AnimalSpwan.Infraestructure.dll
+C:\Users\Fernando\Desktop\UTM\Cuatrimestre 4\Aplicacion Web Orientada a Servidores\Parcial 1\AnimalSpawn\AnimalSpwan.Infrastucture\bin\Debug\netcoreapp3.1\AnimalSpwan.Infraestructure.pdb
+C:\Users\Fernando\Desktop\UTM\Cuatrimestre 4\Aplicacion Web Orientada a Servidores\Parcial 1\AnimalSpawn\AnimalSpwan.Infrastucture\bin\Debug\netcoreapp3.1\AnimalSpawn.Domain.dll
+C:\Users\Fernando\Desktop\UTM\Cuatrimestre 4\Aplicacion Web Orientada a Servidores\Parcial 1\AnimalSpawn\AnimalSpwan.Infrastucture\bin\Debug\netcoreapp3.1\AnimalSpawn.Domain.pdb
+C:\Users\Fernando\Desktop\UTM\Cuatrimestre 4\Aplicacion Web Orientada a Servidores\Parcial 1\AnimalSpawn\AnimalSpwan.Infrastucture\obj\Debug\netcoreapp3.1\AnimalSpwan.Infraestructure.csprojAssemblyReference.cache
+C:\Users\Fernando\Desktop\UTM\Cuatrimestre 4\Aplicacion Web Orientada a Servidores\Parcial 1\AnimalSpawn\AnimalSpwan.Infrastucture\obj\Debug\netcoreapp3.1\AnimalSpwan.Infraestructure.AssemblyInfoInputs.cache
+C:\Users\Fernando\Desktop\UTM\Cuatrimestre 4\Aplicacion Web Orientada a Servidores\Parcial 1\AnimalSpawn\AnimalSpwan.Infrastucture\obj\Debug\netcoreapp3.1\AnimalSpwan.Infraestructure.AssemblyInfo.cs
+C:\Users\Fernando\Desktop\UTM\Cuatrimestre 4\Aplicacion Web Orientada a Servidores\Parcial 1\AnimalSpawn\AnimalSpwan.Infrastucture\obj\Debug\netcoreapp3.1\AnimalSpwan.Infraestructure.csproj.CopyComplete
+C:\Users\Fernando\Desktop\UTM\Cuatrimestre 4\Aplicacion Web Orientada a Servidores\Parcial 1\AnimalSpawn\AnimalSpwan.Infrastucture\obj\Debug\netcoreapp3.1\AnimalSpwan.Infraestructure.dll
+C:\Users\Fernando\Desktop\UTM\Cuatrimestre 4\Aplicacion Web Orientada a Servidores\Parcial 1\AnimalSpawn\AnimalSpwan.Infrastucture\obj\Debug\netcoreapp3.1\AnimalSpwan.Infraestructure.pdb
+C:\Users\Fernando\Desktop\UTM\Cuatrimestre 4\Aplicacion Web Orientada a Servidores\Parcial 1\AnimalSpawn\AnimalSpwan.Infrastucture\bin\Debug\netcoreapp3.1\AnimalSpwan.Infraestructure.runtimeconfig.json
+C:\Users\Fernando\Desktop\UTM\Cuatrimestre 4\Aplicacion Web Orientada a Servidores\Parcial 1\AnimalSpawn\AnimalSpwan.Infrastucture\bin\Debug\netcoreapp3.1\AnimalSpwan.Infraestructure.runtimeconfig.dev.json
+C:\Users\Fernando\Desktop\UTM\Cuatrimestre 4\Aplicacion Web Orientada a Servidores\Parcial 1\AnimalSpawn\AnimalSpwan.Infrastucture\obj\Debug\netcoreapp3.1\AnimalSpwan.Infraestructure.genruntimeconfig.cache
+C:\Users\Fernando\Desktop\UTM\Cuatrimestre 4\Aplicacion Web Orientada a Servidores\Parcial 1\AnimalSpawn\AnimalSpwan.Infrastucture\obj\Debug\netcoreapp3.1\AnimalSpwan.Infraestructure.csproj.CoreCompileInputs.cache
+C:\Users\User1\source\repos\AnimalSpawn\AnimalSpwan.Infrastucture\bin\Debug\netcoreapp3.1\AnimalSpwan.Infraestructure.deps.json
+C:\Users\User1\source\repos\AnimalSpawn\AnimalSpwan.Infrastucture\bin\Debug\netcoreapp3.1\AnimalSpwan.Infraestructure.runtimeconfig.json
+C:\Users\User1\source\repos\AnimalSpawn\AnimalSpwan.Infrastucture\bin\Debug\netcoreapp3.1\AnimalSpwan.Infraestructure.runtimeconfig.dev.json
+C:\Users\User1\source\repos\AnimalSpawn\AnimalSpwan.Infrastucture\bin\Debug\netcoreapp3.1\AnimalSpwan.Infraestructure.dll
+C:\Users\User1\source\repos\AnimalSpawn\AnimalSpwan.Infrastucture\bin\Debug\netcoreapp3.1\AnimalSpwan.Infraestructure.pdb
+C:\Users\User1\source\repos\AnimalSpawn\AnimalSpwan.Infrastucture\bin\Debug\netcoreapp3.1\AnimalSpawn.Domain.dll
+C:\Users\User1\source\repos\AnimalSpawn\AnimalSpwan.Infrastucture\bin\Debug\netcoreapp3.1\AnimalSpawn.Domain.pdb
+C:\Users\User1\source\repos\AnimalSpawn\AnimalSpwan.Infrastucture\obj\Debug\netcoreapp3.1\AnimalSpwan.Infraestructure.csprojAssemblyReference.cache
+C:\Users\User1\source\repos\AnimalSpawn\AnimalSpwan.Infrastucture\obj\Debug\netcoreapp3.1\AnimalSpwan.Infraestructure.AssemblyInfoInputs.cache
+C:\Users\User1\source\repos\AnimalSpawn\AnimalSpwan.Infrastucture\obj\Debug\netcoreapp3.1\AnimalSpwan.Infraestructure.AssemblyInfo.cs
+C:\Users\User1\source\repos\AnimalSpawn\AnimalSpwan.Infrastucture\obj\Debug\netcoreapp3.1\AnimalSpwan.Infraestructure.csproj.CoreCompileInputs.cache
+C:\Users\User1\source\repos\AnimalSpawn\AnimalSpwan.Infrastucture\obj\Debug\netcoreapp3.1\AnimalSpwan.Infraestructure.csproj.CopyComplete
+C:\Users\User1\source\repos\AnimalSpawn\AnimalSpwan.Infrastucture\obj\Debug\netcoreapp3.1\AnimalSpwan.Infraestructure.dll
+C:\Users\User1\source\repos\AnimalSpawn\AnimalSpwan.Infrastucture\obj\Debug\netcoreapp3.1\AnimalSpwan.Infraestructure.pdb
+C:\Users\User1\source\repos\AnimalSpawn\AnimalSpwan.Infrastucture\obj\Debug\netcoreapp3.1\AnimalSpwan.Infraestructure.genruntimeconfig.cache
