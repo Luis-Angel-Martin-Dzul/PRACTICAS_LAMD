@@ -16,65 +16,60 @@ namespace AnimalSpawn.Api.Controllers
     [ApiController]
     public class AnimalController : ControllerBase
     {
-        private readonly IAnimalRepository _service;
+        private readonly IAnimalService _service;
         private readonly IMapper _mapper;
 
-        public AnimalController(IAnimalRepository service, IMapper mapper)
+        public AnimalController(IAnimalService service, IMapper mapper)
         {
             _service = service;
             _mapper = mapper;
         }
-
         [HttpGet]
         public async Task<IActionResult> Get()
         {
-            var animals = await _service.GetAnimals();
-            var animalsDto = _mapper.Map<IEnumerable<Animal>,
-           IEnumerable<AnimalResponseDto>>(animals);
-            var response = new ApiResponse<IEnumerable<AnimalResponseDto>>(animalsDto);
-            return Ok(response);
+            var animal = await _service.GetAnimals();
+            var animalsDto = _mapper.Map<IEnumerable<AnimalResponseDto>>(animal);
+            var response = new ApiResponse<bool>(true);
+            return Ok(animalsDto);
         }
 
-        [HttpGet ("{id:int}")]
+        [HttpGet("{id:int}")]
         public async Task<IActionResult> Get(int id)
         {
             var animal = await _service.GetAnimal(id);
-            var animalDto = _mapper.Map<Animal, AnimalResponseDto>(animal);
-            var response = new ApiResponse<AnimalResponseDto>(animalDto);
-            return Ok(response);
-
+            var animalDto = _mapper.Map<IEnumerable<AnimalResponseDto>>(animal);
+            //var response = new ApiResponse<AnimalResponseDto>(animalDto);
+            return Ok(animalDto);
         }
 
         [HttpPost]
         public async Task<IActionResult> Post(AnimalRequestDto animalDto)
         {
-            var animal = _mapper.Map<AnimalRequestDto, Animal>(animalDto);
+            var animal = _mapper.Map<Animal>(animalDto);
             await _service.AddAnimal(animal);
-            var animalresponseDto = _mapper.Map<Animal, AnimalResponseDto>(animal);
-            var response = new ApiResponse<AnimalResponseDto>(animalresponseDto);
-            return Ok(response);
+            var responseDto = _mapper.Map< AnimalRequestDto > (animal);
+            return Ok(responseDto);
         }
 
         [HttpDelete("{id:int}")]
-        public async Task<ActionResult> Delete(int id)
+        public async Task<IActionResult> Delete(int id)
         {
-            var result = await _service.DeleteAnimal(id);
-            var response = new ApiResponse<bool>(result);
+            await _service.DeleteAnimal(id);
+            var response = new ApiResponse<bool>(true);
             return Ok(response);
         }
 
-        [HttpPut]
+        [HttpPut("{id:int}")]
         public async Task<IActionResult> Put(int id, AnimalRequestDto animalDto)
         {
             var animal = _mapper.Map<Animal>(animalDto);
             animal.Id = id;
             animal.UpdateAt = DateTime.Now;
-            animal.UpdatedBy = 2;
-            var result = await _service.UpdateAnimal(animal);
-            var response = new ApiResponse<bool>(result);
+            animal.UpdateBy = 3;
+            await _service.UpdateAnimal(animal);
+            var response = new ApiResponse<bool>(true);
             return Ok(response);
 
         }
-
     }
 }

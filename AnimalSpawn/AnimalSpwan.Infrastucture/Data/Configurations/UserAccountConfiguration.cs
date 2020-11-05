@@ -28,7 +28,7 @@ namespace AnimalSpwan.Infraestructure.Data.Configurations
             builder.Ignore(e => e.CreateAt);
             builder.Ignore(e => e.CreatedBy);
             builder.Ignore(e => e.UpdateAt);
-            builder.Ignore(e => e.UpdatedBy);
+            builder.Ignore(e => e.UpdateBy);
             builder.Ignore(e => e.Status);
         }
     }
