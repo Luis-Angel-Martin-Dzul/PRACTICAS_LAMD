@@ -2621,6 +2621,19 @@
           "lib/netstandard1.3/System.Xml.XmlSerializer.dll": {}
         }
       },
+      "AnimalSpawn.Application/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "dependencies": {
+          "AnimalSpawn.Domain": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/AnimalSpawn.Application.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/AnimalSpawn.Application.dll": {}
+        }
+      },
       "AnimalSpawn.Domain/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v3.1",
@@ -2645,7 +2658,10 @@
         },
         "runtime": {
           "bin/placeholder/AnimalSpwan.Infraestructure.dll": {}
-        }
+        },
+        "frameworkReferences": [
+          "Microsoft.AspNetCore.App"
+        ]
       }
     }
   },
@@ -8602,6 +8618,11 @@
         "system.xml.xmlserializer.nuspec"
       ]
     },
+    "AnimalSpawn.Application/1.0.0": {
+      "type": "project",
+      "path": "../AnimalSpawn.Application/AnimalSpawn.Application.csproj",
+      "msbuildProject": "../AnimalSpawn.Application/AnimalSpawn.Application.csproj"
+    },
     "AnimalSpawn.Domain/1.0.0": {
       "type": "project",
       "path": "../AnimalSpawn.Domain/AnimalSpawn.Domain.csproj",
@@ -8615,6 +8636,7 @@
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
+      "AnimalSpawn.Application >= 1.0.0",
       "AnimalSpawn.Domain >= 1.0.0",
       "AnimalSpwan.Infraestructure >= 1.0.0",
       "AutoMapper.Extensions.Microsoft.DependencyInjection >= 8.0.1",
@@ -8653,6 +8675,9 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
+            "C:\\Users\\User1\\source\\repos\\AnimalSpawn\\AnimalSpawn.Application\\AnimalSpawn.Application.csproj": {
+              "projectPath": "C:\\Users\\User1\\source\\repos\\AnimalSpawn\\AnimalSpawn.Application\\AnimalSpawn.Application.csproj"
+            },
             "C:\\Users\\User1\\source\\repos\\AnimalSpawn\\AnimalSpawn.Domain\\AnimalSpawn.Domain.csproj": {
               "projectPath": "C:\\Users\\User1\\source\\repos\\AnimalSpawn\\AnimalSpawn.Domain\\AnimalSpawn.Domain.csproj"
             },

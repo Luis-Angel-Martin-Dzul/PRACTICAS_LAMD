@@ -1,3 +1,4 @@
+using AnimalSpawn.Application.Services;
 using AnimalSpawn.Domain.Interfaces;
 using AnimalSpwan.Infraestructure.Data;
 using AnimalSpwan.Infraestructure.Repositories;
@@ -30,7 +31,11 @@ namespace AnimalSpawn.Api
             services.AddDbContext<AnimalSpawnContext>(options =>
             options.UseSqlServer(Configuration.GetConnectionString("AnimalSpawnEF"))
             );
-            services.AddTransient<IAnimalRepository, AnimalRepository>();
+
+            services.AddTransient<IUnitOfWork, UnitOfWork>();
+            services.AddScoped(typeof(IRepository<>),typeof(SQLRepository<>));
+            services.AddTransient<IAnimalService, AnimalService>();
+
             services.AddMvc().AddFluentValidation(options =>
             options.RegisterValidatorsFromAssemblies(AppDomain.CurrentDomain.GetAssemblies()));
         }

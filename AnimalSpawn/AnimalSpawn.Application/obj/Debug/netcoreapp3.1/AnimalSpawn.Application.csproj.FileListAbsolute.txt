@@ -1,0 +1,12 @@
+C:\Users\User1\source\repos\AnimalSpawn\AnimalSpawn.Application\bin\Debug\netcoreapp3.1\AnimalSpawn.Application.deps.json
+C:\Users\User1\source\repos\AnimalSpawn\AnimalSpawn.Application\bin\Debug\netcoreapp3.1\AnimalSpawn.Application.dll
+C:\Users\User1\source\repos\AnimalSpawn\AnimalSpawn.Application\bin\Debug\netcoreapp3.1\AnimalSpawn.Application.pdb
+C:\Users\User1\source\repos\AnimalSpawn\AnimalSpawn.Application\bin\Debug\netcoreapp3.1\AnimalSpawn.Domain.dll
+C:\Users\User1\source\repos\AnimalSpawn\AnimalSpawn.Application\bin\Debug\netcoreapp3.1\AnimalSpawn.Domain.pdb
+C:\Users\User1\source\repos\AnimalSpawn\AnimalSpawn.Application\obj\Debug\netcoreapp3.1\AnimalSpawn.Application.csprojAssemblyReference.cache
+C:\Users\User1\source\repos\AnimalSpawn\AnimalSpawn.Application\obj\Debug\netcoreapp3.1\AnimalSpawn.Application.AssemblyInfoInputs.cache
+C:\Users\User1\source\repos\AnimalSpawn\AnimalSpawn.Application\obj\Debug\netcoreapp3.1\AnimalSpawn.Application.AssemblyInfo.cs
+C:\Users\User1\source\repos\AnimalSpawn\AnimalSpawn.Application\obj\Debug\netcoreapp3.1\AnimalSpawn.Application.csproj.CoreCompileInputs.cache
+C:\Users\User1\source\repos\AnimalSpawn\AnimalSpawn.Application\obj\Debug\netcoreapp3.1\AnimalSpawn.Application.csproj.CopyComplete
+C:\Users\User1\source\repos\AnimalSpawn\AnimalSpawn.Application\obj\Debug\netcoreapp3.1\AnimalSpawn.Application.dll
+C:\Users\User1\source\repos\AnimalSpawn\AnimalSpawn.Application\obj\Debug\netcoreapp3.1\AnimalSpawn.Application.pdb

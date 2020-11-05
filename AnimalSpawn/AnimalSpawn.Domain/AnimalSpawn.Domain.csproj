@@ -5,6 +5,10 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="Interfaces\IAnimalRepository.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
     <Folder Include="Enumerations\" />
     <Folder Include="Exceptions\" />
   </ItemGroup>

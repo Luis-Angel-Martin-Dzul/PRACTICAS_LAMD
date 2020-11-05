@@ -2,6 +2,7 @@
 using AnimalSpawn.Domain.Interfaces;
 using AnimalSpwan.Infraestructure.Data;
 using Microsoft.EntityFrameworkCore;
+using System;
 using System.Collections.Generic;
 using System.Threading.Tasks;
 
@@ -23,8 +24,8 @@ namespace AnimalSpwan.Infraestructure.Repositories
 
         public async Task<bool> DeleteAnimal(int id)
         {
-            var current = await GetAnimal(id);
-            _context.Animal.Remove(current);
+            var animal = await GetAnimal(id);
+            _context.Animal.Remove(animal);
             var rowsDelete = await _context.SaveChangesAsync();
             return rowsDelete > 0;
         }
@@ -43,16 +44,19 @@ namespace AnimalSpwan.Infraestructure.Repositories
 
         public async Task<bool> UpdateAnimal(Animal animal)
         {
-            var current = await GetAnimal(animal.Id);
-            current.GenusId = animal.GenusId;
-            current.FamilyId = animal.FamilyId;
-            current.Description = animal.Description;
-            current.EstimatedAge = animal.EstimatedAge;
-            current.Gender = animal.Gender;
-            current.Height = animal.Height;
-            current.Name = animal.Name;
-            current.Photo = animal.Photo;
-            current.SpeciesId = animal.SpeciesId;
+            var source = await GetAnimal(animal.Id);
+            source.GenusId = animal.GenusId;
+            source.FamilyId = animal.FamilyId;
+            source.Description = animal.Description;
+            source.EstimatedAge = animal.EstimatedAge;
+            source.Gender = animal.Gender;
+            source.Height = animal.Height;
+            source.Name = animal.Name;
+            source.Photo = animal.Photo;
+            source.SpeciesId = animal.SpeciesId;
+            source.UpdateAt = DateTime.Now;
+            source.UpdatedBy = 5;
+
             var rowsUpdate = await _context.SaveChangesAsync();
             return rowsUpdate > 0;
         }

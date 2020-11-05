@@ -267,8 +267,10 @@ C:\Users\User1\source\repos\AnimalSpawn\AnimalSpawn.Api\bin\Debug\netcoreapp3.1\
 C:\Users\User1\source\repos\AnimalSpawn\AnimalSpawn.Api\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.0\System.Runtime.Caching.dll
 C:\Users\User1\source\repos\AnimalSpawn\AnimalSpawn.Api\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Runtime.Caching.dll
 C:\Users\User1\source\repos\AnimalSpawn\AnimalSpawn.Api\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\User1\source\repos\AnimalSpawn\AnimalSpawn.Api\bin\Debug\netcoreapp3.1\AnimalSpawn.Application.dll
 C:\Users\User1\source\repos\AnimalSpawn\AnimalSpawn.Api\bin\Debug\netcoreapp3.1\AnimalSpawn.Domain.dll
 C:\Users\User1\source\repos\AnimalSpawn\AnimalSpawn.Api\bin\Debug\netcoreapp3.1\AnimalSpwan.Infraestructure.dll
+C:\Users\User1\source\repos\AnimalSpawn\AnimalSpawn.Api\bin\Debug\netcoreapp3.1\AnimalSpawn.Application.pdb
 C:\Users\User1\source\repos\AnimalSpawn\AnimalSpawn.Api\bin\Debug\netcoreapp3.1\AnimalSpawn.Domain.pdb
 C:\Users\User1\source\repos\AnimalSpawn\AnimalSpawn.Api\bin\Debug\netcoreapp3.1\AnimalSpwan.Infraestructure.pdb
 C:\Users\User1\source\repos\AnimalSpawn\AnimalSpawn.Api\obj\Debug\netcoreapp3.1\AnimalSpawn.Api.csprojAssemblyReference.cache

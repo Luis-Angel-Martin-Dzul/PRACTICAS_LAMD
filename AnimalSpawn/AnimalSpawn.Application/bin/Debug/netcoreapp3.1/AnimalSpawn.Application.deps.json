@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "AnimalSpawn.Application/1.0.0": {
+        "dependencies": {
+          "AnimalSpawn.Domain": "1.0.0"
+        },
+        "runtime": {
+          "AnimalSpawn.Application.dll": {}
+        }
+      },
+      "AnimalSpawn.Domain/1.0.0": {
+        "runtime": {
+          "AnimalSpawn.Domain.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "AnimalSpawn.Application/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "AnimalSpawn.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

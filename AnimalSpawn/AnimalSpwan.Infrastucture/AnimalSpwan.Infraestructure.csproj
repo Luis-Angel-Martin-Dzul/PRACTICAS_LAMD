@@ -5,6 +5,10 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="Repositories\AnimalRepository.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
     <Folder Include="Filtros\" />
   </ItemGroup>
 

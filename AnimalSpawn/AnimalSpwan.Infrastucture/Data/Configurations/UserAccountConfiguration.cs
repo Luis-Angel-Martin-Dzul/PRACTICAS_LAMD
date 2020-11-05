@@ -25,6 +25,11 @@ namespace AnimalSpwan.Infraestructure.Data.Configurations
                 .HasForeignKey<UserAccount>(d => d.Id)
                 .OnDelete(DeleteBehavior.ClientSetNull)
                 .HasConstraintName("FK_UserAccount_0");
+            builder.Ignore(e => e.CreateAt);
+            builder.Ignore(e => e.CreatedBy);
+            builder.Ignore(e => e.UpdateAt);
+            builder.Ignore(e => e.UpdatedBy);
+            builder.Ignore(e => e.Status);
         }
     }
 }

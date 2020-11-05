@@ -29,6 +29,11 @@ namespace AnimalSpwan.Infraestructure.Data.Configurations
                 .HasForeignKey(d => d.ProtectedAreaId)
                 .OnDelete(DeleteBehavior.ClientSetNull)
                 .HasConstraintName("FK_RFIdTag_1");
+            builder.Ignore(e => e.CreateAt);
+            builder.Ignore(e => e.CreatedBy);
+            builder.Ignore(e => e.UpdateAt);
+            builder.Ignore(e => e.UpdatedBy);
+            builder.Ignore(e => e.Status);
         }
     }
 }

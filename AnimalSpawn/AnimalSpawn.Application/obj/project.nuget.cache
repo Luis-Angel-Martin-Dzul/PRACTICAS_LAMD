@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "8329swH9L8121105tM218S3RMysTMNrPa98bSNw9joCLKEXMd8j+W42VePsDH7HhhPEsCjRBbJxd3gDrTBsnzA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\User1\\source\\repos\\AnimalSpawn\\AnimalSpawn.Application\\AnimalSpawn.Application.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\User1\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.3\\microsoft.aspnetcore.app.ref.3.1.3.nupkg.sha512",
+    "C:\\Users\\User1\\.nuget\\packages\\microsoft.netcore.app.ref\\3.1.0\\microsoft.netcore.app.ref.3.1.0.nupkg.sha512",
+    "C:\\Users\\User1\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\3.1.0\\microsoft.windowsdesktop.app.ref.3.1.0.nupkg.sha512"
+  ],
+  "logs": []
+}
